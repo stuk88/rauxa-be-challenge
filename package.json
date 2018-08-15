@@ -1,8 +1,8 @@
 {
   "name": "be",
   "private": true,
-  "version": "0.0.0",
-  "description": "a Sails application",
+  "version": "0.0.1",
+  "description": "Contacts application",
   "keywords": [],
   "dependencies": {
     "@sailshq/connect-redis": "^3.2.1",
@@ -36,7 +36,7 @@
     "type": "git",
     "url": "git://github.com/anonymous node/sails user/be.git"
   },
-  "author": "anonymous node/sails user",
+  "author": "Stas Arshanski",
   "license": "",
   "engines": {
     "node": ">=10.8"
