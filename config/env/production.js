@@ -403,3 +403,4 @@ if(process.env.CLEARDB_DATABASE_URL) {
   };
 }
 
+module.exports = production;
