@@ -336,7 +336,7 @@ var production  = {
   * this, just try deploying without setting it and see if it works.)       *
   *                                                                         *
   ***************************************************************************/
-  // port: 80,
+  port: process.env.PORT || 80,
 
 
 
