@@ -7,6 +7,5 @@
     "sails-generate": "1.15.28"
   },
   "hooks": {
-    "session": false
   }
 }

@@ -251,8 +251,8 @@ var production  = {
     *                                                                          *
     ***************************************************************************/
     onlyAllowOrigins: [
-      'https://rauxa-be.herokuapp.com/',
-      'http://rauxa-be.herokuapp.com/'
+      'https://rauxa-be.herokuapp.com',
+      'http://rauxa-be.herokuapp.com'
     ],
 
 
