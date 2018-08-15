@@ -15,3 +15,16 @@ and that the views are loading correctly.
 * S3 image upload. I could do it, but the build time was over so I had to cut that one and make the photo just as a url.
 * clean the DB after test or use other DB for the tests
 * Oh and I used Heroku ClearDB Service to reduce time too.. can open RDS if needed.
+
+# How to install:
+
+- npm install
+
+# How to run:
+
+* sails lift
+* run this in the browser: http://localhost:1337
+
+# How to test:
+
+- npm test
