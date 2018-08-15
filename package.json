@@ -1,0 +1,44 @@
+{
+  "name": "be",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@sailshq/connect-redis": "^3.2.1",
+    "@sailshq/lodash": "^3.10.3",
+    "@sailshq/socket.io-redis": "^5.2.0",
+    "async": "2.0.1",
+    "grunt": "1.0.1",
+    "sails": "^1.0.2",
+    "sails-hook-grunt": "^3.0.2",
+    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-sockets": "^1.4.0",
+    "sails-mysql": "^1.0.0"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3",
+    "barrels": "^1.6.5",
+    "mocha": "^5.2.0",
+    "randomstring": "^1.1.5",
+    "sails-hook-autoreload": "^1.1.0",
+    "supertest": "^3.1.0"
+  },
+  "scripts": {
+    "start": "NODE_ENV=production sails lift",
+    "start_win": "sails lift",
+    "test": "node ./node_modules/mocha/bin/mocha test/bootstrap.test.js test/integration/**/*.test.js",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/anonymous node/sails user/be.git"
+  },
+  "author": "anonymous node/sails user",
+  "license": "",
+  "engines": {
+    "node": ">=10.8"
+  }
+}

@@ -1,0 +1,17 @@
+<div class="contact card container">
+  <a href="/contacts" class="btn btn-primary">< Back to the contacts list</a>
+  <div class="row">
+    <div class="col-lg-12"><h1>Contact: <%= contact.name%></h1></div>
+  </div>
+  <% if(contact.photo) { %>
+    <div class="row">
+      <div class="col-lg-12"><img src="<%= contact.photo %>" align="top" /></div>
+    </div>
+  <% } %>
+  <div class="row">
+    <div class="col-lg-12"><h1>Email: <%= contact.email%></h1></div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12"><h1>Phone: <%= contact.phone%></h1></div>
+  </div>
+</div>

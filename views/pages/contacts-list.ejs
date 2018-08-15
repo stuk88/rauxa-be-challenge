@@ -1,0 +1,27 @@
+<div class="contacts-list card container">
+  <div class="row">
+    <div class="col-lg-6"><h1>Contact list:</h1></div>
+    <div class="col-lg-6"><a class="btn btn-primary" href="/contacts/new">Add Contacts</a></div>
+  </div>
+  <div class="row">
+  <% if(contacts.length > 0) { contacts.forEach((contact) => { %>
+  <div class="card col-lg-12">
+    <a class='contact block center' href="/contacts/<%=contact.id %>">
+      <% if(contact.photo) { %>
+      <img src="<%= contact.photo %>" align="top" /><br/>
+      <% } %>
+      Name: <%= contact.name %>
+    </a>
+  </div>
+  <% });
+  }
+  else
+  {
+  %>
+    <div class="card col-lg-12">
+      No Contacts yet. <br/>
+      <a href="/contacts/new" class="btn btn-primary">Click here to create new one.</a>
+    </div>
+  <% } %>
+  </div>
+</div>
