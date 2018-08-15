@@ -252,6 +252,7 @@ var production  = {
     ***************************************************************************/
     onlyAllowOrigins: [
       'https://rauxa-be.herokuapp.com/',
+      'http://rauxa-be.herokuapp.com/',
     ],
 
 
@@ -321,7 +322,7 @@ var production  = {
     * (https://sailsjs.com/config/http)                                        *
     *                                                                          *
     ***************************************************************************/
-    // trustProxy: true,
+    trustProxy: true,
 
   },
 
