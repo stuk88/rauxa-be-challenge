@@ -6,8 +6,8 @@
     "sails": "1.0.2",
     "sails-generate": "1.15.28"
   },
-  hooks: {
-    session: false,
-    sockets: false
+  "hooks": {
+    "session": false,
+    "sockets": false
   }
 }
