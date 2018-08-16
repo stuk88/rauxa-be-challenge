@@ -5,6 +5,7 @@
   "description": "Contacts application",
   "keywords": [],
   "dependencies": {
+    "randomstring": "^1.1.5",
     "@sailshq/connect-redis": "^3.2.1",
     "@sailshq/lodash": "^3.10.3",
     "@sailshq/socket.io-redis": "^5.2.0",
@@ -20,7 +21,6 @@
     "@sailshq/eslint": "^4.19.3",
     "barrels": "^1.6.5",
     "mocha": "^5.2.0",
-    "randomstring": "^1.1.5",
     "sails-hook-autoreload": "^1.1.0",
     "supertest": "^3.1.0"
   },
